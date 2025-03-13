@@ -1,1 +1,2 @@
 This program is a POC for the document anonymizer tool. It labels sensitive/confidential data according to the category and switches the value of it to a category label. It consist of two pre trained models in English and Hungarian.  
+The Hungarian version of a tool uses a community pretrained model, to use it u need to instal it first by using "pip install huspacy". More information and the documentation can be found here https://github.com/huspacy/huspacy
