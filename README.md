@@ -1,0 +1,1 @@
+This program is a POC for the document anonymizer tool. It labels sensitive/confidential data according to the category and switches the value of it to a category label. It consist of two pre trained models in English and Hungarian.  
