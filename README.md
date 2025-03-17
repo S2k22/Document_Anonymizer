@@ -28,6 +28,16 @@ The tool uses pretrained SpaCy model, it includes pre-trained components (like t
 
 The text is processed to create a doc object containing recognized entities. For every entity in doc.ents, the function checks if the entity’s label is in allowed_labels. It appends the text between the previous entity and the current one and replaces the entity text with a placeholder in the form [ENTITY_LABEL] (for example, [EMAIL]). After processing all entities, any remaining text is appended, and the segments are joined back together. The paragraph text is replaced with its anonymized version and the modified document is saved to the specified output path.
 
+# Results
+## Original Text 
+![image](https://github.com/user-attachments/assets/ca33ed5d-e17d-4b48-9e49-591d2153047d)
+
+## Anonymized Text
+
+![image](https://github.com/user-attachments/assets/e51bc683-a437-4267-a904-8e3b8efb97a7)
+
+
+
 
 
 
