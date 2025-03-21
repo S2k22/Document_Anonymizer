@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import uuid
-import Anonymizer  # Ensure this matches your file name exactly
+import Anonymizer
 from pathlib import Path
 
 def main():
@@ -13,11 +13,11 @@ def main():
         "?ixlib=rb-4.0.3"
         "&auto=format"
         "&fit=crop"
-        "&w=2560"    # Increase width for better resolution
-        "&q=80"      # Increase quality
+        "&w=2560"    
+        "&q=80"
     )
 
-    # Custom CSS styling: background image, container styling, text input styling, and animations
+
     st.markdown(
         f"""
         <style>
@@ -87,7 +87,7 @@ def main():
     # File uploader for input DOCX
     input_file = st.file_uploader("Select Input DOCX File", type=["docx"])
 
-    # Text input for the output file name (only the file name, not the path)
+    # Text input for the output file name
     output_file_name = st.text_input("Output File Name (e.g. anonymized.docx)")
 
     if st.button("Anonymize Document"):
@@ -125,7 +125,7 @@ def main():
     # Horizontal rule for separation
     st.markdown("---")
 
-    # Single multi-line string for your links, with CSS classes for styling
+
     st.markdown(
         """
         <div class="connect-links">
