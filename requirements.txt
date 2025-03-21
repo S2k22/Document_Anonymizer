@@ -1,6 +1,8 @@
 streamlit==1.43.2
-spacy==3.5.0
-thinc==8.1.8
+spacy==3.6.0
+thinc==8.1.13
+numpy==1.24.0
 python-docx
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
+
 
