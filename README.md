@@ -6,7 +6,7 @@ The Hungarian version of a tool uses a community pretrained model, to use it u n
 
 ## Try it out right now !
 
-https://document-anonymizer.streamlit.app/
+[https://document-anonymizer.streamlit.app/](https://document-anonymizer.streamlit.app/)
 
 
 ## Installation
